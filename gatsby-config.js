@@ -10,7 +10,7 @@ module.exports = {
     siteImage: `/android-chrome-512x512.png`,
     siteLanguage: `ID`,
     siteDescription: `A personal site by Abdul Kemal`,
-    siteUrl: `https://kemalnw.id`,
+    siteUrl: `https://kemalnw.netlify.app`,
     siteHeadline: `Personal site by Abdul Kemal`,
   },
   plugins: [
