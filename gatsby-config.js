@@ -30,8 +30,12 @@ module.exports = {
         ],
         externalLinks: [
           {
-            name: `Github`,
+            name: `GitHub`,
             url: `https://github.com/kemalnw`,
+          },
+          {
+            name: `GitLab`,
+            url: `https://gitlab.com/kemalnw`,
           },
         ],
       },
