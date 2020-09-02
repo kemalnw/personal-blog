@@ -5,37 +5,36 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     siteTitle: `Kemal`,
-    siteTitleAlt: `Kemal - Personal site by Abdul Kemal`,
+    siteTitleAlt: `Kemal - Situs pribadi oleh Abdul Kemal`,
     author: `Kemal (abdulkemalnw@gmail.com)`,
     siteImage: `/android-chrome-512x512.png`,
     siteLanguage: `ID`,
-    siteDescription: `A personal site by Abdul Kemal`,
+    siteDescription: `Situs pribadi oleh Abdul Kemal Nasa'i Wibowo`,
     siteUrl: `https://kemalnw.id`,
-    siteHeadline: `Personal site by Abdul Kemal`,
+    siteHeadline: `Situs pribadi oleh Abdul Kemal Nasa'i Wibowo`,
+    siteLanguage: `id`,
+    author: `@kemalnw`
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
+        feedTitle: `Situs pribadi oleh Abdul Kemal Nasa'i Wibowo`,
         navigation: [
           {
             title: `Blog`,
             slug: `/blog`,
           },
-          {
-            title: `About`,
-            slug: `/about`,
-          },
         ],
         externalLinks: [
           {
-            name: `GitHub`,
+            name: `Github`,
             url: `https://github.com/kemalnw`,
           },
           {
-            name: `GitLab`,
-            url: `https://gitlab.com/kemalnw`,
+            name: `Linkedin`,
+            url: `https://www.linkedin.com/in/kemalnw`,
           },
         ],
       },
